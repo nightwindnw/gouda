@@ -1,0 +1,12 @@
+# MAC OS 禁用临时ipv6
+Macos 可以通过对 sysctl.conf 进行修改从而达到禁用 IPv6 临时地址的问题，具体操作方法如下：
+
+``` bash
+sudo sysctl -w net.inet6.ip6.use_tempaddr=0 #但是重启后会失效
+```
+
+如果想重启不失效手动编辑或创建 `/etc/sysctl.conf`文件并添加下列内容
+
+`sysctl -w net.inet6.ip6.use_tempaddr = 0`
+
+由于 conf 文件的规则，最后一行需要是空行，多个换行符即多敲一个回车

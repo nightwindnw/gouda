@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Ubuntu添加程序到桌面"
+date:   2021-12-04 10:39:56 +0800
+categories: linux
+---
+
+```bash
+    sudo apt-get install alacarte
+```
+
+原理为在该文件夹下创建文件：~/.local/share/applications
