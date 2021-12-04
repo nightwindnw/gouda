@@ -9,4 +9,4 @@ categories: linux
     sudo apt-get install alacarte
 ```
 
-原理为在该文件夹下创建文件：~/.local/share/applications
+原理为在该文件夹下创建文件：`~/.local/share/applications`
