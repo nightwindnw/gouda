@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "ISCSI_CHAP认证"
+date:   2021-12-04
+categories: linux
+---
 # 登录CHAP认证的iSCSI target
 
 使用iStorage Server为linux服务器创建iSCSI target ，iStorage Server 支持CHAP在内的多种认证方法，而CHAP是目前IP SAN领域最常用的安全机制。

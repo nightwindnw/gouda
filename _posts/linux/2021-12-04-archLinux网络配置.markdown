@@ -1,10 +1,16 @@
+---
+layout: post
+title:  "ArchLinux网络配置"
+date:   2021-12-04
+categories: linux
+---
 ### Archlinux 网络配置方法
 
 在 Archlinux 下最简单的网络配置方式是使用 `systemd-networkd` 服务，默认配置文件位于 `/etc/systemd/network` 下
 
 使用 `systemctl` 开启 `systemd-networkd` 服务
 
-```
+``` bash
 $ systemctl enable systemd-networkd
 ```
 

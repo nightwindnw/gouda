@@ -1,4 +1,9 @@
-
+---
+layout: post
+title:  "linux下编译报错ld"
+date:   2021-12-04
+categories: linux
+---
 
 编译报错 canot find -lpng
 

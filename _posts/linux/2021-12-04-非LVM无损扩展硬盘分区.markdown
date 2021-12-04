@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "非LVM无损扩展硬盘分区(不推荐)"
+date:   2021-12-04
+categories: linux
+---
+
  安装公司samba服务器时对磁盘需求量估计不足，原本分的只有100GB，使用一段时间后磁盘就达到了 86%的使用量，![使用resize2fs调整ext4分区大小 - 明天的阳光 - 明天的阳光](http://b.bst.126.net/common/portrait/face/preview/face15.gif)
 
 我的情况  将一块硬盘分成了两个区，一个100GB 一个60GB  ，只使用了前100GB空间的内容，后面的分区没有挂载，也没有使用。属于比较好处理的情况

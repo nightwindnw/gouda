@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "MACOS临时禁用IPv6"
+date:   2021-12-04
+categories: linux
+---
 # MAC OS 禁用临时ipv6
 Macos 可以通过对 sysctl.conf 进行修改从而达到禁用 IPv6 临时地址的问题，具体操作方法如下：
 

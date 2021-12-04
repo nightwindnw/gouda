@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "shell中!感叹号的妙用"
+date:   2021-12-04
+categories: linux
+---
+
 整天在shell环境下操作，不积累点快捷输入的小技巧是不行的。
 
 最常用的技巧恐怕就是Tab自动补全以及上方向键来回退上几条历史命令了，这些对于csh，bash，ksh，zsh都适用。
