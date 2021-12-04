@@ -1,0 +1,16 @@
+
+
+编译报错 canot find -lpng
+
+
+```  bash
+/usr/bin/ld: cannot find -lc
+/usr/bin/ld: cannot find -lltdl
+/usr/bin/ld: cannot find -lXtst
+/usr/bin/ld: cannot find -lpng
+```
+
+这个报错就是缺少库文件
+
+例如`/usr/bin/ld: cannot find -lpng`,则可以安装 `apt install libpng-dev`试试
+
