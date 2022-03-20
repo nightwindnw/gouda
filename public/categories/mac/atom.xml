@@ -3,7 +3,7 @@
 	<title>Gouda&#x27;s Blog - mac</title>
 	<subtitle>A simple blog by Gouda</subtitle>
 	<link href="https://goudax.gitee.io/categories/mac/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://goudax.gitee.io"/>
+  <link href="https://goudax.gitee.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-12-04T00:00:00+00:00</updated>
 	<id>https://goudax.gitee.io/categories/mac/atom.xml</id>
