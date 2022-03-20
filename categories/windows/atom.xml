@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>Gouda&#x27;s Blog - windows</title>
+	<subtitle>A simple blog by Gouda</subtitle>
+	<link href="https://www.xuhaoda.com/categories/windows/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.xuhaoda.com"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-12-04T00:00:00+00:00</updated>
+	<id>https://www.xuhaoda.com/categories/windows/atom.xml</id>
+	<entry xml:lang="en">
+		<title>WSL中字体文件问题解决</title>
+		<published>2021-12-04T00:00:00+00:00</published>
+		<updated>2021-12-04T00:00:00+00:00</updated>
+		<link href="https://www.xuhaoda.com/linux/wslzi-ti-wen-jian/" type="text/html"/>
+		<id>https://www.xuhaoda.com/linux/wslzi-ti-wen-jian/</id>
+		<content type="html">&lt;p&gt;wsl是没有中文字体的，所以在安装使用Firefox等软件时，无法正常显示中文字体，所以我们可以通过使用Windows自带字体的方式，来实现快速安装中文字体（以Ubuntu为例）。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;sudo ln -s &#x2F;mnt&#x2F;c&#x2F;Windows&#x2F;Fonts &#x2F;usr&#x2F;share&#x2F;fonts&#x2F;font&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;我们只需要将Windows下的字体目录链接到WSL目录下即可然后再刷新一下。&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;fc-cache -fv&lt;&#x2F;code&gt;
+这样就可以正常显示中文字体了&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>
