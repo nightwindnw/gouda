@@ -7,12 +7,6 @@
         <loc>https://www.xuhaoda.com/categories/</loc>
     </url>
     <url>
-        <loc>https://www.xuhaoda.com/categories/hehe/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/categories/hehe/page/1/</loc>
-    </url>
-    <url>
         <loc>https://www.xuhaoda.com/categories/linux/</loc>
     </url>
     <url>
@@ -82,17 +76,6 @@
         <loc>https://www.xuhaoda.com/posts/</loc>
     </url>
     <url>
-        <loc>https://www.xuhaoda.com/posts/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/posts/post1/</loc>
-        <lastmod>2022-03-20</lastmod>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/posts/post2/</loc>
-        <lastmod>2022-03-20</lastmod>
-    </url>
-    <url>
         <loc>https://www.xuhaoda.com/ruby/</loc>
     </url>
     <url>
@@ -119,12 +102,6 @@
     </url>
     <url>
         <loc>https://www.xuhaoda.com/tags/bios/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/tags/demo/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/tags/demo/page/1/</loc>
     </url>
     <url>
         <loc>https://www.xuhaoda.com/tags/gan-tan-hao/</loc>
@@ -155,12 +132,6 @@
     </url>
     <url>
         <loc>https://www.xuhaoda.com/tags/mac/page/1/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/tags/post1/</loc>
-    </url>
-    <url>
-        <loc>https://www.xuhaoda.com/tags/post1/page/1/</loc>
     </url>
     <url>
         <loc>https://www.xuhaoda.com/tags/qi-dong-mo-shi/</loc>
