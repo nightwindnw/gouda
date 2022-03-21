@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>Gouda&#x27;s Blog - mac</title>
 	<subtitle>A simple blog by Gouda</subtitle>
-	<link href="https://goudax.gitee.io/categories/mac/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://goudax.gitee.io"/>
+	<link href="https://www.xuhaoda.com/categories/mac/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://www.xuhaoda.com"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-12-04T00:00:00+00:00</updated>
-	<id>https://goudax.gitee.io/categories/mac/atom.xml</id>
+	<id>https://www.xuhaoda.com/categories/mac/atom.xml</id>
 	<entry xml:lang="en">
 		<title>MACOS临时禁用IPv6</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://goudax.gitee.io/linux/mac-osjin-yong-lin-shi-ipv6/" type="text/html"/>
-		<id>https://goudax.gitee.io/linux/mac-osjin-yong-lin-shi-ipv6/</id>
+		<link href="https://www.xuhaoda.com/linux/mac-osjin-yong-lin-shi-ipv6/" type="text/html"/>
+		<id>https://www.xuhaoda.com/linux/mac-osjin-yong-lin-shi-ipv6/</id>
 		<content type="html">&lt;h1 id=&quot;mac-os-jin-yong-lin-shi-ipv6&quot;&gt;MAC OS 禁用临时ipv6&lt;&#x2F;h1&gt;
 &lt;p&gt;Macos 可以通过对 sysctl.conf 进行修改从而达到禁用 IPv6 临时地址的问题，具体操作方法如下：&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#6c7079;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; sysctl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt; -w&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; net.inet6.ip6.use_tempaddr=0 &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5f697a;&quot;&gt;#但是重启后会失效
@@ -26,8 +26,8 @@
 		<title>shell中!感叹号的妙用</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://goudax.gitee.io/linux/shellzhong-gan-tan-hao-de-miao-yong/" type="text/html"/>
-		<id>https://goudax.gitee.io/linux/shellzhong-gan-tan-hao-de-miao-yong/</id>
+		<link href="https://www.xuhaoda.com/linux/shellzhong-gan-tan-hao-de-miao-yong/" type="text/html"/>
+		<id>https://www.xuhaoda.com/linux/shellzhong-gan-tan-hao-de-miao-yong/</id>
 		<content type="html">&lt;p&gt;整天在shell环境下操作，不积累点快捷输入的小技巧是不行的。&lt;&#x2F;p&gt;
 &lt;p&gt;最常用的技巧恐怕就是Tab自动补全以及上方向键来回退上几条历史命令了，这些对于csh，bash，ksh，zsh都适用。&lt;&#x2F;p&gt;
 &lt;p&gt;! 符号在 Linux 中不但可以用作否定符号，还可以用来从历史命令记录中取出命令或不加修改的执行之前运行的命令。下面的所有命令都已经在 Bash Shell 中经过确切地检验。尽管我没有试过，但大多都不能在别的 Shell 中运行。这里我们介绍下 Linux 命令行中符号 ! 那惊人和奇妙的用法。&lt;&#x2F;p&gt;
