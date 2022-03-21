@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>Gouda&#x27;s Blog - linux</title>
 	<subtitle>A simple blog by Gouda</subtitle>
-	<link href="https://www.xuhaoda.com/categories/linux/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://www.xuhaoda.com"/>
+	<link href="https://goudax.gitee.io/categories/linux/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://goudax.gitee.io"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-12-26T00:00:00+00:00</updated>
-	<id>https://www.xuhaoda.com/categories/linux/atom.xml</id>
+	<id>https://goudax.gitee.io/categories/linux/atom.xml</id>
 	<entry xml:lang="en">
 		<title>ArchLinux网络配置</title>
 		<published>2021-12-26T00:00:00+00:00</published>
 		<updated>2021-12-26T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/archlinuxwang-luo-pei-zhi/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/archlinuxwang-luo-pei-zhi/</id>
+		<link href="https://goudax.gitee.io/linux/archlinuxwang-luo-pei-zhi/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/archlinuxwang-luo-pei-zhi/</id>
 		<content type="html">&lt;h3 id=&quot;archlinux-wang-luo-pei-zhi-fang-fa&quot;&gt;Archlinux 网络配置方法&lt;&#x2F;h3&gt;
 &lt;p&gt;在 Archlinux 下最简单的网络配置方式是使用 &lt;code&gt;systemd-networkd&lt;&#x2F;code&gt; 服务，默认配置文件位于 &lt;code&gt;&#x2F;etc&#x2F;systemd&#x2F;network&lt;&#x2F;code&gt; 下&lt;&#x2F;p&gt;
 &lt;p&gt;使用 &lt;code&gt;systemctl&lt;&#x2F;code&gt; 开启 &lt;code&gt;systemd-networkd&lt;&#x2F;code&gt; 服务&lt;&#x2F;p&gt;
@@ -50,8 +50,8 @@
 		<title>linux下编译报错ld</title>
 		<published>2021-12-26T00:00:00+00:00</published>
 		<updated>2021-12-26T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/bian-yi-bao-cuo-ld/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/bian-yi-bao-cuo-ld/</id>
+		<link href="https://goudax.gitee.io/linux/bian-yi-bao-cuo-ld/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/bian-yi-bao-cuo-ld/</id>
 		<content type="html">&lt;p&gt;编译报错 canot find -lpng&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#6c7079;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;&#x2F;usr&#x2F;bin&#x2F;ld:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; cannot find&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt; -lc&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
 &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;&#x2F;usr&#x2F;bin&#x2F;ld:&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; cannot find&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt; -lltdl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
@@ -66,8 +66,8 @@
 		<title>非LVM无损扩展硬盘分区(不推荐)</title>
 		<published>2021-12-26T00:00:00+00:00</published>
 		<updated>2021-12-26T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/fei-lvmwu-sun-kuo-zhan-ying-pan-fen-qu/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/fei-lvmwu-sun-kuo-zhan-ying-pan-fen-qu/</id>
+		<link href="https://goudax.gitee.io/linux/fei-lvmwu-sun-kuo-zhan-ying-pan-fen-qu/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/fei-lvmwu-sun-kuo-zhan-ying-pan-fen-qu/</id>
 		<content type="html">&lt;p&gt;安装公司samba服务器时对磁盘需求量估计不足，原本分的只有100GB，使用一段时间后磁盘就达到了 86%的使用量，&lt;img src=&quot;http:&#x2F;&#x2F;b.bst.126.net&#x2F;common&#x2F;portrait&#x2F;face&#x2F;preview&#x2F;face15.gif&quot; alt=&quot;使用resize2fs调整ext4分区大小 - 明天的阳光 - 明天的阳光&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;我的情况  将一块硬盘分成了两个区，一个100GB 一个60GB  ，只使用了前100GB空间的内容，后面的分区没有挂载，也没有使用。属于比较好处理的情况&lt;&#x2F;p&gt;
 &lt;p&gt;我的步骤：&lt;&#x2F;p&gt;
@@ -222,8 +222,8 @@
 		<title>ISCSI_CHAP认证</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/iscsi-chapren-zheng/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/iscsi-chapren-zheng/</id>
+		<link href="https://goudax.gitee.io/linux/iscsi-chapren-zheng/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/iscsi-chapren-zheng/</id>
 		<content type="html">&lt;h1 id=&quot;deng-lu-chapren-zheng-de-iscsi-target&quot;&gt;登录CHAP认证的iSCSI target&lt;&#x2F;h1&gt;
 &lt;p&gt;使用iStorage Server为linux服务器创建iSCSI target ，iStorage Server 支持CHAP在内的多种认证方法，而CHAP是目前IP SAN领域最常用的安全机制。&lt;&#x2F;p&gt;
 &lt;p&gt;iStorage Server是kernsafe旗下的一款优秀的IP SAN服务器软件，创建target方法，可以查看官网白皮书：www.kernsafe.cn&lt;&#x2F;p&gt;
@@ -370,8 +370,8 @@
 		<title>linux下验证启动模式是BIOS还是UEFI</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/linuxxia-yan-zheng-qi-dong-mo-shi-biosoruefi/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/linuxxia-yan-zheng-qi-dong-mo-shi-biosoruefi/</id>
+		<link href="https://goudax.gitee.io/linux/linuxxia-yan-zheng-qi-dong-mo-shi-biosoruefi/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/linuxxia-yan-zheng-qi-dong-mo-shi-biosoruefi/</id>
 		<content type="html">&lt;p&gt;验证启动模式
 如果以在 UEFI 主板上启用 UEFI 模式，Archiso 将会使用 systemd-boot 来 启动 Arch Linux。可以列出 efivars 目录以验证启动模式：&lt;&#x2F;p&gt;
 &lt;h1 id=&quot;ls-sys-firmware-efi-efivars&quot;&gt;ls &#x2F;sys&#x2F;firmware&#x2F;efi&#x2F;efivars&lt;&#x2F;h1&gt;
@@ -382,8 +382,8 @@
 		<title>MACOS临时禁用IPv6</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/mac-osjin-yong-lin-shi-ipv6/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/mac-osjin-yong-lin-shi-ipv6/</id>
+		<link href="https://goudax.gitee.io/linux/mac-osjin-yong-lin-shi-ipv6/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/mac-osjin-yong-lin-shi-ipv6/</id>
 		<content type="html">&lt;h1 id=&quot;mac-os-jin-yong-lin-shi-ipv6&quot;&gt;MAC OS 禁用临时ipv6&lt;&#x2F;h1&gt;
 &lt;p&gt;Macos 可以通过对 sysctl.conf 进行修改从而达到禁用 IPv6 临时地址的问题，具体操作方法如下：&lt;&#x2F;p&gt;
 &lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#6c7079;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; sysctl&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt; -w&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; net.inet6.ip6.use_tempaddr=0 &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5f697a;&quot;&gt;#但是重启后会失效
@@ -397,8 +397,8 @@
 		<title>shell中!感叹号的妙用</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/shellzhong-gan-tan-hao-de-miao-yong/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/shellzhong-gan-tan-hao-de-miao-yong/</id>
+		<link href="https://goudax.gitee.io/linux/shellzhong-gan-tan-hao-de-miao-yong/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/shellzhong-gan-tan-hao-de-miao-yong/</id>
 		<content type="html">&lt;p&gt;整天在shell环境下操作，不积累点快捷输入的小技巧是不行的。&lt;&#x2F;p&gt;
 &lt;p&gt;最常用的技巧恐怕就是Tab自动补全以及上方向键来回退上几条历史命令了，这些对于csh，bash，ksh，zsh都适用。&lt;&#x2F;p&gt;
 &lt;p&gt;! 符号在 Linux 中不但可以用作否定符号，还可以用来从历史命令记录中取出命令或不加修改的执行之前运行的命令。下面的所有命令都已经在 Bash Shell 中经过确切地检验。尽管我没有试过，但大多都不能在别的 Shell 中运行。这里我们介绍下 Linux 命令行中符号 ! 那惊人和奇妙的用法。&lt;&#x2F;p&gt;
@@ -487,8 +487,8 @@
 		<title>Ubuntu添加程序到桌面</title>
 		<published>2021-12-04T00:00:00+00:00</published>
 		<updated>2021-12-04T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/linux/ubuntutian-jia-cheng-xu-dao-zhuo-mian/" type="text/html"/>
-		<id>https://www.xuhaoda.com/linux/ubuntutian-jia-cheng-xu-dao-zhuo-mian/</id>
+		<link href="https://goudax.gitee.io/linux/ubuntutian-jia-cheng-xu-dao-zhuo-mian/" type="text/html"/>
+		<id>https://goudax.gitee.io/linux/ubuntutian-jia-cheng-xu-dao-zhuo-mian/</id>
 		<content type="html">&lt;pre data-lang=&quot;bash&quot; style=&quot;background-color:#2b303b;color:#6c7079;&quot; class=&quot;language-bash &quot;&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#eb6772;&quot;&gt;sudo&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt; apt-get install alacarte&lt;&#x2F;span&gt;&lt;span style=&quot;color:#abb2bf;&quot;&gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;原理为在该文件夹下创建文件：&lt;code&gt;~&#x2F;.local&#x2F;share&#x2F;applications&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;

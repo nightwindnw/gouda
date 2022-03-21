@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>Gouda&#x27;s Blog - ruby</title>
 	<subtitle>A simple blog by Gouda</subtitle>
-	<link href="https://www.xuhaoda.com/categories/ruby/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://www.xuhaoda.com"/>
+	<link href="https://goudax.gitee.io/categories/ruby/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://goudax.gitee.io"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-12-26T00:00:00+00:00</updated>
-	<id>https://www.xuhaoda.com/categories/ruby/atom.xml</id>
+	<id>https://goudax.gitee.io/categories/ruby/atom.xml</id>
 	<entry xml:lang="en">
 		<title>安装rvm报错——gpg: 从公钥服务器接收失败：服务器故障</title>
 		<published>2021-12-26T00:00:00+00:00</published>
 		<updated>2021-12-26T00:00:00+00:00</updated>
-		<link href="https://www.xuhaoda.com/ruby/ruby-rvman-zhuang-bao-cuo/" type="text/html"/>
-		<id>https://www.xuhaoda.com/ruby/ruby-rvman-zhuang-bao-cuo/</id>
+		<link href="https://goudax.gitee.io/ruby/ruby-rvman-zhuang-bao-cuo/" type="text/html"/>
+		<id>https://goudax.gitee.io/ruby/ruby-rvman-zhuang-bao-cuo/</id>
 		<content type="html">&lt;h1 id=&quot;an-zhuang-rvmbao-cuo-gpg-cong-gong-yao-fu-wu-qi-jie-shou-shi-bai-fu-wu-qi-gu-zhang&quot;&gt;安装rvm报错——gpg: 从公钥服务器接收失败：服务器故障&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;wen-ti-xian-xiang&quot;&gt;问题现象&lt;&#x2F;h2&gt;
 &lt;p&gt;gpg: 从公钥服务器接收失败：服务器故障&lt;&#x2F;p&gt;

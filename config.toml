@@ -163,7 +163,7 @@ navbar_items = [
     { code = "en", nav_items = [
         { url = "$BASE_URL/", name = "主页" },
         { url = "$BASE_URL/posts", name = "常用" },
-        { url = "$BASE_URL/docs", name = "Docs" },
+       # { url = "$BASE_URL/docs", name = "Docs" },
         { url = "$BASE_URL/linux", name = "Linux" },
         { url = "$BASE_URL/ruby", name = "Ruby" },
         { url = "$BASE_URL/tags", name = "标签" },
@@ -172,7 +172,7 @@ navbar_items = [
     { code = "zh", nav_items = [
     { url = "$BASE_URL/", name = "主页" },
     { url = "$BASE_URL/posts", name = "常用" },
-    { url = "$BASE_URL/docs", name = "Docs" },
+    #{ url = "$BASE_URL/docs", name = "Docs" },
     { url = "$BASE_URL/linux", name = "Linux" },
     { url = "$BASE_URL/ruby", name = "Ruby" },
     { url = "$BASE_URL/tags", name = "标签" },
